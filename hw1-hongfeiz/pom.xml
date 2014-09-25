@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.cmu.lti.11791.f14.hw1</groupId>
   <artifactId>hw1-hongfeiz</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <repositories>
     <repository>
       <id>oaqa</id>
@@ -120,5 +120,6 @@
   <scm>
   	<connection>scm:git:git@github.com:freddiezhang/hw1-hongfeiz.git</connection>
   	<developerConnection>scm:git:git@github.com:freddiezhang/hw1-hongfeiz.git</developerConnection>
+    <tag>hw1-hongfeiz-0.0.1</tag>
   </scm>
 </project>
