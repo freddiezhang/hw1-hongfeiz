@@ -65,8 +65,8 @@ public class GeneAnnotator extends JCasAnnotator_ImplBase {
       Iterator iter = set.iterator();    
       while(iter.hasNext()){   
         Map.Entry entry = (Map.Entry)iter.next();          
-        inBegin = (int) entry.getKey();          
-        inEnd = (int) entry.getValue(); 
+        inBegin = (Integer) entry.getKey();          
+        inEnd = (Integer) entry.getValue(); 
         int current = 0;
         int numOfSpace = 0;
         outText = inText.substring(inBegin,inEnd);
